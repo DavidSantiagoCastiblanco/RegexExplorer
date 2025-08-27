@@ -7,7 +7,7 @@
 
 import re
 
-texto = 'El mensaje es "Hola mundo" y la clave es "1234".'
+texto = 'El otro día fui al parque y escuché a unos niños hablar de "robots", "cohetes", y "planetas", mientras su mamá les decía que también había que pensar en "escuela", "tareas" y "responsabilidad"'
 
 # Expresión regular para strings entre comillas dobles
 patron = r'"(.*?)"'
