@@ -7,7 +7,7 @@
 
 import re
 
-texto = "En la verificación del sistema, algunos valores salieron como true, indicando que todo estaba bien, mientras que otros resultaron false, lo que mostró ciertos errores por corregir.
+texto = "En la verificación del sistema, algunos valores salieron como true, indicando que todo estaba bien, mientras que otros resultaron false, lo que mostró ciertos errores por corregir."
 
 # Expresión regular para booleanos (True o False, case-insensitive)
 patron = r"\b(True|False)\b"
