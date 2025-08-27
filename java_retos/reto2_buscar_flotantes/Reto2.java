@@ -9,7 +9,7 @@ import java.util.regex.*;
 
 public class Reto2 {
     public static void main(String[] args) {
-        String texto = "El precio es 12.50 dólares, pero antes era 10.0.";
+        String texto = "La temperatura de Bogotá es 20.0 y hot tarde 10.5 minutos en llegar a la universidad";
         // Expresión regular para flotantes (números con punto decimal)
         String patron = "-?\\b\\d+\\.\\d+\\b";
         Pattern pattern = Pattern.compile(patron);
