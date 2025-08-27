@@ -9,7 +9,7 @@ import java.util.regex.*;
 
 public class Reto3 {
     public static void main(String[] args) {
-        String texto = "La respuesta es True, pero a veces es False.";
+        String texto = "En la verificación del sistema, algunos valores salieron como true, indicando que todo estaba bien, mientras que otros resultaron false, lo que mostró ciertos errores por corregir.";
         // Expresión regular para booleanos (True o False, case-insensitive)
         String patron = "\\b(True|False)\\b";
         Pattern pattern = Pattern.compile(patron, Pattern.CASE_INSENSITIVE);
